@@ -4,12 +4,13 @@ A simple Ruby client for Slack
 
 == Install
 
-gem install slack-client
+  gem install slack-client
 
 == Usage
 
-client = Slack::Client.new(token)
-client.notify('development', :as => 'name', :text => 'stuff', :attachments => [])
+  client = Slack::Client.new(token)
+
+  client.notify('development', :as => 'name', :text => 'stuff', :attachments => [])
 
 == TODO
 
