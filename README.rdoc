@@ -18,7 +18,7 @@ A simple Ruby client for Slack
 
 == Additional Information
 
-https://api.slack.com/
+https://api.slack.com
 
 == License
 
