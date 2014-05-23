@@ -16,6 +16,10 @@ A simple Ruby client for Slack
 
 * Lots
 
+== Additional Information
+
+https://api.slack.com/
+
 == License
 
 2014 Adam Bair / Openbay. See LICENSE for details.
