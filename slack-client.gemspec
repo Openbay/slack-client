@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'slack/client/version'
+require File.expand_path( "../lib/slack-client/version", __FILE__ )
 
 Gem::Specification.new do |spec|
   spec.name          = "slack-client"
@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["adambair@gmail.com"]
   spec.description   = %q{A simple Ruby client for Slack}
   spec.summary       = %q{A simple Ruby client for Slack}
-  spec.homepage      = ""
+  spec.homepage      = "http://github.com/Openbay/slack-client"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
