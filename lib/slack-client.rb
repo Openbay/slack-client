@@ -1,3 +1,3 @@
-require "slack-client/version"
-require "slack-client/client"
+require_relative "slack-client/version"
+require_relative "slack-client/client"
 
