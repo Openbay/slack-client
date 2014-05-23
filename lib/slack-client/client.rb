@@ -1,5 +1,3 @@
-require "slack/client/version"
-
 module Slack
   class Client
     def initialize(token)
