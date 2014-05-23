@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Slack::Client::VERSION
   spec.authors       = ["Adam Bair"]
   spec.email         = ["adambair@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{A simple Ruby client for Slack}
+  spec.summary       = %q{A simple Ruby client for Slack}
   spec.homepage      = ""
   spec.license       = "MIT"
 
