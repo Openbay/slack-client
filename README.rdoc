@@ -1,13 +1,20 @@
-slack-client
-============
+= slack-client
 
 A simple Ruby client for Slack
 
-Usage
-============
+== Install
 
+gem install slack-client
 
-Todo
-============
+== Usage
 
-Lots
+client = Slack::Client.new(token)
+client.notify('development', :as => 'name', :text => 'stuff', :attachments => [])
+
+== TODO
+
+* Lots
+
+== License
+
+2014 Adam Bair / Openbay. See LICENSE for details.
